@@ -1,0 +1,41 @@
+{
+  "name": "wechat-api",
+  "version": "0.0.1",
+  "description": "wechat enterprise account api",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/go2he/wechat-api.git"
+  },
+  "keywords": [
+    "wechat",
+    "official account",
+    "enterprise account"
+  ],
+  "author": "WangXuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/go2he/wechat-api/issues"
+  },
+  "homepage": "https://github.com/go2he/wechat-api#readme",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "ejs": "~2.5.5",
+    "express": "~4.14.1",
+    "fibers": "^1.0.15",
+    "log4js": "^1.1.1",
+    "morgan": "~1.7.0",
+    "mysql": "^2.13.0",
+    "request": "^2.81.0",
+    "serve-favicon": "~2.3.2",
+    "underscore": "^1.8.3",
+    "wechat-crypto": "0.0.2",
+    "xml2js": "^0.4.5",
+    "xml2json": "^0.11.0"
+  }
+}
